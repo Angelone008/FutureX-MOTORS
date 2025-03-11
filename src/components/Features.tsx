@@ -5,23 +5,23 @@ import { Leaf, Globe, Battery, Zap } from 'lucide-react';
 const features = [
   {
     icon: <Leaf className="h-8 w-8 text-eco" />,
-    title: "Eco-Friendly Materials",
-    description: "Our prototypes use sustainable materials including recycled carbon fiber, bio-based composites, and vegan leather alternatives."
+    title: "Materiali Ecologici",
+    description: "I nostri prototipi utilizzano materiali sostenibili, tra cui fibra di carbonio riciclata, compositi a base biologica e alternative alla pelle vegana."
   },
   {
-    icon: <Battery className="h-8 w-8 text-eco" />,
-    title: "Next-Gen Battery Tech",
-    description: "Advanced lithium-ion technology with 30% greater energy density and a 500+ km range on a single charge."
+    icon: <Battery className="h-8 w-8 text-rosso" />,
+    title: "Batterie di Nuova Generazione",
+    description: "Tecnologia avanzata agli ioni di litio con densità energetica superiore del 30% e un'autonomia di oltre 500 km con una singola carica."
   },
   {
-    icon: <Zap className="h-8 w-8 text-eco" />,
-    title: "Rapid Charging",
-    description: "Ultra-fast charging system allows 80% battery capacity in just 15 minutes at compatible charging stations."
+    icon: <Zap className="h-8 w-8 text-accent" />,
+    title: "Ricarica Rapida",
+    description: "Il sistema di ricarica ultra-veloce consente l'80% della capacità della batteria in soli 15 minuti presso le stazioni di ricarica compatibili."
   },
   {
     icon: <Globe className="h-8 w-8 text-eco" />,
     title: "Carbon Neutral",
-    description: "Manufacturing process designed to minimize carbon footprint, with 100% renewable energy powering our facilities."
+    description: "Processo di produzione progettato per ridurre al minimo l'impronta di carbonio, con energia 100% rinnovabile per alimentare i nostri impianti."
   }
 ];
 
@@ -60,14 +60,14 @@ const Features: React.FC = () => {
           className="fade-in-section"
         >
           <div className="text-center mb-16">
-            <div className="inline-block px-3 py-1 mb-4 rounded-full bg-eco/10 border border-eco/20">
-              <span className="text-xs uppercase tracking-widest font-medium text-eco-dark">About G.D.B Motors</span>
+            <div className="inline-block px-3 py-1 mb-4 rounded-full bg-rosso/10 border border-rosso/20">
+              <span className="text-xs uppercase tracking-widest font-medium text-rosso-dark">Chi è G.D.B Motors</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-              Pioneer in Electric Automotive Design
+              Pionieri nel Design Automobilistico Elettrico
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              G.D.B MOTORS ITALIA combines Italian craftsmanship with cutting-edge electric technology to create the sustainable luxury vehicles of tomorrow.
+              G.D.B MOTORS ITALIA combina l'artigianato italiano con tecnologia elettrica all'avanguardia per creare i veicoli di lusso sostenibili di domani.
             </p>
           </div>
           

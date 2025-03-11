@@ -34,6 +34,11 @@ export default {
 					DEFAULT: '#4CAF50',
 					dark: '#2E7D32',
 				},
+				rosso: {
+					light: '#FFEBEE',
+					DEFAULT: '#E53935',
+					dark: '#B71C1C',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'

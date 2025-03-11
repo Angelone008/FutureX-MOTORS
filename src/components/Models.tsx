@@ -1,30 +1,34 @@
 
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const models = [
   {
     id: 'eterno',
     name: 'Eterno GT',
-    category: 'Grand Tourer',
-    description: 'Our flagship electric grand tourer combines sleek Italian design with 700 km range and 0-100 km/h in 2.8 seconds.',
-    specs: ['Range: 700 km', 'Power: 850 hp', '0-100 km/h: 2.8s', 'Top Speed: 330 km/h'],
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80'
+    category: 'Gran Turismo',
+    description: 'La nostra ammiraglia elettrica grand tourer combina un elegante design italiano con un\'autonomia di 700 km e un\'accelerazione da 0 a 100 km/h in 2,8 secondi.',
+    specs: ['Autonomia: 700 km', 'Potenza: 850 cv', '0-100 km/h: 2,8s', 'Velocità max: 330 km/h'],
+    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80',
+    path: '/eterno-gt'
   },
   {
     id: 'aura',
     name: 'Aura',
-    category: 'Luxury Sedan',
-    description: 'A sophisticated electric sedan with unparalleled comfort and a focus on sustainable luxury materials.',
-    specs: ['Range: 650 km', 'Power: 500 hp', '0-100 km/h: 3.6s', 'Top Speed: 250 km/h'],
-    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1000&q=80'
+    category: 'Berlina di Lusso',
+    description: 'Una sofisticata berlina elettrica con comfort impareggiabile e un focus sui materiali di lusso sostenibili.',
+    specs: ['Autonomia: 650 km', 'Potenza: 500 cv', '0-100 km/h: 3,6s', 'Velocità max: 250 km/h'],
+    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1000&q=80',
+    path: '/aura'
   },
   {
     id: 'vento',
     name: 'Vento',
-    category: 'Sport SUV',
-    description: 'Electric performance SUV that combines versatility with the soul of a sports car and zero emissions.',
-    specs: ['Range: 580 km', 'Power: 650 hp', '0-100 km/h: 3.4s', 'Top Speed: 240 km/h'],
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1000&q=80'
+    category: 'SUV Sportivo',
+    description: 'SUV elettrico ad alte prestazioni che combina versatilità con l\'anima di un\'auto sportiva e zero emissioni.',
+    specs: ['Autonomia: 580 km', 'Potenza: 650 cv', '0-100 km/h: 3,4s', 'Velocità max: 240 km/h'],
+    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1000&q=80',
+    path: '/vento'
   }
 ];
 
@@ -83,14 +87,14 @@ const Models: React.FC = () => {
           className="fade-in-section"
         >
           <div className="text-center mb-16">
-            <div className="inline-block px-3 py-1 mb-4 rounded-full bg-eco/10 border border-eco/20">
-              <span className="text-xs uppercase tracking-widest font-medium text-eco-dark">Our Models</span>
+            <div className="inline-block px-3 py-1 mb-4 rounded-full bg-rosso/10 border border-rosso/20">
+              <span className="text-xs uppercase tracking-widest font-medium text-rosso-dark">I Nostri Modelli</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-              Electric Prototype Collection
+              Collezione di Prototipi Elettrici
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Discover our exclusive range of electric prototypes, where innovation meets Italian design excellence.
+              Scopri la nostra esclusiva gamma di prototipi elettrici, dove l'innovazione incontra l'eccellenza del design italiano.
             </p>
           </div>
           
@@ -103,7 +107,7 @@ const Models: React.FC = () => {
                     onClick={() => setActiveModel(index)}
                     className={`mr-2 mb-2 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                       activeModel === index 
-                        ? 'bg-eco text-white shadow-md' 
+                        ? 'bg-rosso text-white shadow-md' 
                         : 'bg-white border border-gray-200 hover:bg-gray-50'
                     }`}
                   >
@@ -135,12 +139,18 @@ const Models: React.FC = () => {
                     ))}
                   </div>
                   
-                  <div>
-                    <a 
-                      href="#contact" 
+                  <div className="flex gap-4">
+                    <Link 
+                      to={models[activeModel].path}
                       className="button-hover inline-block px-8 py-3 rounded-lg bg-eco text-white font-medium"
                     >
-                      Inquire About {models[activeModel].name}
+                      Scopri {models[activeModel].name}
+                    </Link>
+                    <a 
+                      href="#contact" 
+                      className="button-hover inline-block px-8 py-3 rounded-lg bg-rosso text-white font-medium"
+                    >
+                      Richiedi Informazioni
                     </a>
                   </div>
                 </div>

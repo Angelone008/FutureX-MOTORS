@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-gray-400 text-sm">
-              Pioneering the future of sustainable luxury mobility with Italian design and innovation.
+              Pionieri del futuro della mobilità di lusso sostenibile con design e innovazione italiana.
             </p>
             <div className="flex gap-4">
               <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
@@ -47,47 +47,47 @@ const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Link Rapidi</h3>
             <ul className="space-y-2">
-              <li><a href="#about" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#models" className="text-gray-400 hover:text-white transition-colors">Models</a></li>
-              <li><a href="#sustainability" className="text-gray-400 hover:text-white transition-colors">Sustainability</a></li>
-              <li><a href="#innovation" className="text-gray-400 hover:text-white transition-colors">Innovation</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Press</a></li>
+              <li><a href="#about" className="text-gray-400 hover:text-white transition-colors">Chi Siamo</a></li>
+              <li><a href="#models" className="text-gray-400 hover:text-white transition-colors">Modelli</a></li>
+              <li><a href="#sustainability" className="text-gray-400 hover:text-white transition-colors">Sostenibilità</a></li>
+              <li><a href="#innovation" className="text-gray-400 hover:text-white transition-colors">Innovazione</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Carriere</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Stampa</a></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Visit Us</h3>
+            <h3 className="text-lg font-semibold mb-4">Visitaci</h3>
             <address className="not-italic text-gray-400">
               <p className="mb-2">G.D.B MOTORS ITALIA</p>
-              <p className="mb-2">Via dell'Innovazione, 123</p>
-              <p className="mb-2">20121 Milano, Italy</p>
-              <p className="mb-2">+39 02 1234 5678</p>
+              <p className="mb-2">Via Longobardo, 23</p>
+              <p className="mb-2">72100 Brindisi, Italia</p>
+              <p className="mb-2">+39 0831 123456</p>
               <p className="mb-4">info@gdbmotors.it</p>
             </address>
-            <div className="inline-block px-3 py-1 rounded-full border border-eco">
-              <span className="text-xs uppercase tracking-widest font-medium text-eco">Open for Tours</span>
+            <div className="inline-block px-3 py-1 rounded-full border border-rosso">
+              <span className="text-xs uppercase tracking-widest font-medium text-rosso">Aperto per Visite</span>
             </div>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Subscribe</h3>
-            <p className="text-gray-400 mb-4">Stay updated with our latest innovations and events.</p>
+            <h3 className="text-lg font-semibold mb-4">Iscriviti</h3>
+            <p className="text-gray-400 mb-4">Rimani aggiornato sulle nostre ultime innovazioni ed eventi.</p>
             <form className="space-y-3">
               <div>
                 <input 
                   type="email" 
-                  placeholder="Your email address" 
-                  className="w-full px-4 py-2 rounded-lg bg-white/10 border border-white/10 text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-eco"
+                  placeholder="La tua email" 
+                  className="w-full px-4 py-2 rounded-lg bg-white/10 border border-white/10 text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-rosso"
                 />
               </div>
               <button 
                 type="submit"
-                className="button-hover w-full px-4 py-2 rounded-lg bg-eco text-white font-medium"
+                className="button-hover w-full px-4 py-2 rounded-lg bg-rosso text-white font-medium"
               >
-                Subscribe
+                Iscriviti
               </button>
             </form>
           </div>
@@ -95,11 +95,11 @@ const Footer: React.FC = () => {
         
         <div className="pt-8 mt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-500 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} G.D.B MOTORS ITALIA. All rights reserved.
+            &copy; {new Date().getFullYear()} G.D.B MOTORS ITALIA. Tutti i diritti riservati.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Termini di Servizio</a>
             <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Cookie Policy</a>
           </div>
         </div>

@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,8 +29,8 @@ const Navbar: React.FC = () => {
       }`}
     >
       <nav className="max-w-7xl mx-auto flex items-center justify-between">
-        <a 
-          href="#" 
+        <Link 
+          to="/" 
           className="flex items-center gap-2"
         >
           <div className="relative w-10 h-10 flex items-center justify-center rounded-full bg-eco text-white">
@@ -42,19 +43,20 @@ const Navbar: React.FC = () => {
             <span className="font-display font-bold tracking-tight text-lg leading-none">G.D.B MOTORS</span>
             <span className="text-[10px] tracking-widest text-muted-foreground uppercase">ITALIA</span>
           </div>
-        </a>
+        </Link>
         
         {/* Desktop menu */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#about" className="nav-link text-sm font-medium py-2">About</a>
-          <a href="#models" className="nav-link text-sm font-medium py-2">Models</a>
-          <a href="#sustainability" className="nav-link text-sm font-medium py-2">Sustainability</a>
-          <a href="#innovation" className="nav-link text-sm font-medium py-2">Innovation</a>
+          <a href="#about" className="nav-link text-sm font-medium py-2">Chi Siamo</a>
+          <a href="#models" className="nav-link text-sm font-medium py-2">Modelli</a>
+          <Link to="/eterno-gt" className="nav-link text-sm font-medium py-2">Eterno GT</Link>
+          <Link to="/aura" className="nav-link text-sm font-medium py-2">Aura</Link>
+          <Link to="/vento" className="nav-link text-sm font-medium py-2">Vento</Link>
           <a 
             href="#contact" 
-            className="button-hover ml-2 px-4 py-2 rounded-full bg-eco text-white text-sm font-medium"
+            className="button-hover ml-2 px-4 py-2 rounded-full bg-rosso text-white text-sm font-medium"
           >
-            Contact
+            Contattaci
           </a>
         </div>
         
@@ -62,7 +64,7 @@ const Navbar: React.FC = () => {
         <button 
           className="md:hidden" 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          aria-label={isMenuOpen ? "Chiudi menu" : "Apri menu"}
         >
           {isMenuOpen ? (
             <X className="h-6 w-6" />
@@ -81,35 +83,42 @@ const Navbar: React.FC = () => {
               className="text-sm font-medium py-2 border-b border-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
-              About
+              Chi Siamo
             </a>
             <a 
               href="#models" 
               className="text-sm font-medium py-2 border-b border-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
-              Models
+              Modelli
             </a>
-            <a 
-              href="#sustainability" 
+            <Link 
+              to="/eterno-gt" 
               className="text-sm font-medium py-2 border-b border-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
-              Sustainability
-            </a>
-            <a 
-              href="#innovation" 
+              Eterno GT
+            </Link>
+            <Link 
+              to="/aura" 
               className="text-sm font-medium py-2 border-b border-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
-              Innovation
-            </a>
+              Aura
+            </Link>
+            <Link 
+              to="/vento" 
+              className="text-sm font-medium py-2 border-b border-gray-100"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Vento
+            </Link>
             <a 
               href="#contact" 
-              className="mt-2 px-4 py-3 rounded-lg bg-eco text-white text-sm font-medium text-center"
+              className="mt-2 px-4 py-3 rounded-lg bg-rosso text-white text-sm font-medium text-center"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contact
+              Contattaci
             </a>
           </div>
         </div>
