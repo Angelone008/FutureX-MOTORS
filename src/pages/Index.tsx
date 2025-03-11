@@ -1,12 +1,50 @@
-// Update this page (the content is just a fallback if you fail to update the page)
 
-const Index = () => {
+import React, { useEffect } from 'react';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Features from '../components/Features';
+import Models from '../components/Models';
+import Sustainability from '../components/Sustainability';
+import Footer from '../components/Footer';
+import AnimatedGradientBackground from '../components/AnimatedGradientBackground';
+
+const Index: React.FC = () => {
+  useEffect(() => {
+    // Intersection Observer for fade-in sections
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    // Apply to all fade-in-section elements
+    document.querySelectorAll('.fade-in-section').forEach((section) => {
+      observer.observe(section);
+    });
+
+    return () => {
+      document.querySelectorAll('.fade-in-section').forEach((section) => {
+        observer.unobserve(section);
+      });
+    };
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="flex flex-col min-h-screen">
+      <AnimatedGradientBackground />
+      <Navbar />
+      <main>
+        <Hero />
+        <Features />
+        <Models />
+        <Sustainability />
+      </main>
+      <Footer />
     </div>
   );
 };
