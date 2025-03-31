@@ -7,27 +7,27 @@ const models = [
     id: 'eterno',
     name: 'Eterno GT',
     category: 'Gran Turismo',
-    description: 'La nostra ammiraglia elettrica grand tourer combina un elegante design italiano con un\'autonomia di 700 km e un\'accelerazione da 0 a 100 km/h in 2,8 secondi.',
+    description: 'Il nostro fiore all\'occhiello: una Grand Tourer elettrica che ridefinisce il concetto di eleganza italiana. Con un\'autonomia di 700 km e un\'accelerazione da 0 a 100 km/h in soli 2,8 secondi, rappresenta il perfetto equilibrio tra lusso sostenibile e prestazioni straordinarie.',
     specs: ['Autonomia: 700 km', 'Potenza: 850 cv', '0-100 km/h: 2,8s', 'Velocità max: 330 km/h'],
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80',
+    image: '/lovable-uploads/d2b0d1f6-a24d-4880-9302-781ba528eab7.png',
     path: '/eterno-gt'
   },
   {
     id: 'aura',
     name: 'Aura',
     category: 'Berlina di Lusso',
-    description: 'Una sofisticata berlina elettrica con comfort impareggiabile e un focus sui materiali di lusso sostenibili.',
+    description: 'Una sofisticata berlina elettrica con comfort impareggiabile, realizzata con materiali eco-sostenibili di altissima qualità. Tecnologia all\'avanguardia, interni spaziosi e un\'autonomia di 650 km per viaggiare nel massimo comfort con zero emissioni.',
     specs: ['Autonomia: 650 km', 'Potenza: 500 cv', '0-100 km/h: 3,6s', 'Velocità max: 250 km/h'],
-    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1000&q=80',
+    image: '/lovable-uploads/edb9dd29-2cb3-4b25-90ac-f5678c5af4fc.png',
     path: '/aura'
   },
   {
     id: 'vento',
     name: 'Vento',
     category: 'SUV Sportivo',
-    description: 'SUV elettrico ad alte prestazioni che combina versatilità con l\'anima di un\'auto sportiva e zero emissioni.',
+    description: 'Il nostro rivoluzionario SUV elettrico che unisce versatilità, prestazioni sportive e tecnologia eco-friendly. Con sistema di trazione integrale intelligente, capacità fuoristrada avanzate e un\'autonomia di 580 km, il Vento ridefinisce ciò che un SUV può fare.',
     specs: ['Autonomia: 580 km', 'Potenza: 650 cv', '0-100 km/h: 3,4s', 'Velocità max: 240 km/h'],
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1000&q=80',
+    image: '/lovable-uploads/87ff38f3-184f-46d4-8396-dc80894714bc.png',
     path: '/vento'
   }
 ];
@@ -94,7 +94,7 @@ const Models: React.FC = () => {
               Collezione di Prototipi Elettrici
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Scopri la nostra esclusiva gamma di prototipi elettrici, dove l'innovazione incontra l'eccellenza del design italiano.
+              Scopri la nostra esclusiva gamma di prototipi elettrici, dove l'innovazione tecnologica incontra l'eccellenza del design italiano per una mobilità sostenibile e di lusso.
             </p>
           </div>
           
@@ -132,7 +132,7 @@ const Models: React.FC = () => {
                     {models[activeModel].specs.map((spec, index) => (
                       <div 
                         key={index} 
-                        className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100"
+                        className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-sm"
                       >
                         <span className="text-sm font-medium">{spec}</span>
                       </div>

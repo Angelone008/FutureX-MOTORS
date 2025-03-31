@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
 import Models from '../components/Models';
+import UrbanMobility from '../components/UrbanMobility';
 import Sustainability from '../components/Sustainability';
 import Footer from '../components/Footer';
 import AnimatedGradientBackground from '../components/AnimatedGradientBackground';
@@ -42,6 +43,7 @@ const Index: React.FC = () => {
         <Hero />
         <Features />
         <Models />
+        <UrbanMobility />
         <Sustainability />
       </main>
       <Footer />

@@ -33,8 +33,8 @@ const Hero: React.FC = () => {
         />
         <img
           ref={imageRef}
-          src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=1920&q=80"
-          alt="Auto concept elettrica illuminata da luce blu"
+          src="/lovable-uploads/641220f0-f416-46d8-b33f-7057ea223bb8.png"
+          alt="Auto concept elettrica G.D.B Motors con illuminazione futuristica"
           className="w-full h-full object-cover lazy-image"
         />
       </div>
@@ -58,13 +58,13 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
               href="#models" 
-              className="button-hover px-8 py-3 rounded-lg bg-eco text-white font-medium text-center"
+              className="button-hover px-8 py-3 rounded-lg bg-eco text-white font-medium text-center shadow-lg"
             >
               Esplora i Modelli
             </a>
             <a 
               href="#innovation" 
-              className="button-hover px-8 py-3 rounded-lg bg-rosso/90 backdrop-blur text-white font-medium text-center"
+              className="button-hover px-8 py-3 rounded-lg bg-rosso/90 backdrop-blur text-white font-medium text-center shadow-lg"
             >
               La Nostra Tecnologia
             </a>
