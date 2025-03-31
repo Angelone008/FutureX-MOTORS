@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 
 const Hero: React.FC = () => {
@@ -40,22 +41,22 @@ const Hero: React.FC = () => {
       
       <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-16 md:pt-24 lg:pt-32">
         <div className="max-w-3xl animate-fade-in">
-          <div className="inline-block px-3 py-1 mb-6 rounded-full bg-rosso/10 border border-rosso/20">
+          <div className="inline-block px-3 py-1 mb-6 rounded-full bg-rosso/20 border border-rosso/30">
             <span className="text-xs uppercase tracking-widest font-medium text-rosso-dark">Reinventare la Mobilità</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6 hero-text-shadow">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6 hero-text-shadow text-white">
             Il Futuro delle <br />
             <span className="bg-gradient-to-r from-eco via-accent to-rosso bg-clip-text text-transparent animate-gradient-x">Eco-Cars</span> <br />
             è Italiano.
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl hero-text-shadow">
+          <p className="text-lg md:text-xl text-white mb-8 max-w-2xl hero-text-shadow font-semibold">
             G.D.B MOTORS ITALIA crea prototipi automobilistici elettrici visionari che ridefiniscono ciò che è possibile nella mobilità di lusso sostenibile.
           </p>
           
-          <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
-            <p className="text-lg md:text-xl font-display italic font-medium text-rosso-dark text-center">
+          <div className="bg-white/90 backdrop-blur-sm p-5 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
+            <p className="text-lg md:text-2xl font-display italic font-bold text-rosso-dark text-center">
               "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
             </p>
           </div>
@@ -83,8 +84,8 @@ const Hero: React.FC = () => {
           className="flex flex-col items-center"
           aria-label="Scorri verso il basso"
         >
-          <span className="text-sm text-muted-foreground mb-2">Scopri</span>
-          <div className="w-0.5 h-6 bg-muted-foreground/30" />
+          <span className="text-sm text-white font-medium mb-2">Scopri</span>
+          <div className="w-0.5 h-6 bg-white/70" />
         </a>
       </div>
     </section>

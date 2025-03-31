@@ -24,6 +24,7 @@ const urbanModels = [
 const UrbanMobility: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const imageRefs = useRef<(HTMLImageElement | null)[]>([]);
+  const chargingImageRef = useRef<HTMLImageElement>(null);
   
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -54,6 +55,10 @@ const UrbanMobility: React.FC = () => {
       if (img) imgObserver.observe(img);
     });
     
+    if (chargingImageRef.current) {
+      imgObserver.observe(chargingImageRef.current);
+    }
+    
     return () => {
       if (sectionRef.current) {
         observer.unobserve(sectionRef.current);
@@ -61,6 +66,9 @@ const UrbanMobility: React.FC = () => {
       imageRefs.current.forEach(img => {
         if (img) imgObserver.unobserve(img);
       });
+      if (chargingImageRef.current) {
+        imgObserver.unobserve(chargingImageRef.current);
+      }
     };
   }, []);
   
@@ -72,13 +80,13 @@ const UrbanMobility: React.FC = () => {
           className="fade-in-section"
         >
           <div className="text-center mb-16">
-            <div className="inline-block px-3 py-1 mb-4 rounded-full bg-eco/10 border border-eco/20">
+            <div className="inline-block px-3 py-1 mb-4 rounded-full bg-eco/20 border border-eco/30">
               <span className="text-xs uppercase tracking-widest font-medium text-eco-dark">Mobilità Urbana</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
+            <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">
               Soluzioni Compatte per la Città
             </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-medium">
               Le nostre innovative proposte per la mobilità urbana combinano dimensioni compatte, autonomia eccellente e tecnologie all'avanguardia per affrontare le sfide quotidiane della città.
             </p>
           </div>
@@ -105,7 +113,7 @@ const UrbanMobility: React.FC = () => {
                   <h3 className="text-2xl font-display font-bold mb-3">
                     {model.name}
                   </h3>
-                  <p className="text-muted-foreground mb-6">
+                  <p className="text-muted-foreground mb-6 font-medium">
                     {model.description}
                   </p>
                   
@@ -113,7 +121,7 @@ const UrbanMobility: React.FC = () => {
                     {model.specs.map((spec, idx) => (
                       <div 
                         key={idx} 
-                        className="px-3 py-2 bg-accent/10 rounded-lg text-sm"
+                        className="px-3 py-2 bg-accent/10 rounded-lg text-sm font-medium"
                       >
                         {spec}
                       </div>
@@ -134,31 +142,32 @@ const UrbanMobility: React.FC = () => {
           
           <div className="mt-16 text-center">
             <div className="p-6 md:p-10 bg-gradient-to-br from-rosso/5 to-eco/5 backdrop-blur-sm rounded-xl border border-eco/10 shadow-sm">
-              <h3 className="text-2xl font-display font-bold mb-4">Tecnologia di Ricarica All'avanguardia</h3>
+              <h3 className="text-2xl md:text-3xl font-display font-bold mb-6">Tecnologia di Ricarica All'avanguardia</h3>
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <img
-                    src="/lovable-uploads/641220f0-f416-46d8-b33f-7057ea223bb8.png" 
-                    alt="Sistema di ricarica ultrarapida G.D.B Motors" 
-                    className="w-full h-[250px] object-cover rounded-lg shadow-lg"
+                    ref={chargingImageRef}
+                    src="/lovable-uploads/6ab08545-0c70-47c6-8a00-37266cce5094.png" 
+                    alt="Sistema di ricarica ultrarapida G.D.B Motors in ambiente naturale" 
+                    className="w-full h-[250px] object-cover rounded-lg shadow-lg lazy-image"
                   />
                 </div>
                 <div className="text-left">
-                  <p className="text-lg mb-4">
+                  <p className="text-lg mb-4 font-medium">
                     Tutti i nostri modelli sono compatibili con il nostro sistema di ricarica ultrarapida GDB-Fast, che permette di ricaricare dal 20% all'80% in tempi record, grazie alla nostra tecnologia proprietaria.
                   </p>
-                  <ul className="space-y-2">
+                  <ul className="space-y-3">
                     <li className="flex items-start">
-                      <span className="text-rosso mr-2">•</span>
-                      <span>Rete di ricarica in espansione in tutta Italia</span>
+                      <span className="text-rosso mr-2 text-xl">•</span>
+                      <span className="font-medium">Rete di ricarica in espansione in tutta Italia</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-rosso mr-2">•</span>
-                      <span>Compatibilità con tutti gli standard europei</span>
+                      <span className="text-rosso mr-2 text-xl">•</span>
+                      <span className="font-medium">Compatibilità con tutti gli standard europei</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-rosso mr-2">•</span>
-                      <span>App dedicata per localizzare e prenotare stazioni</span>
+                      <span className="text-rosso mr-2 text-xl">•</span>
+                      <span className="font-medium">App dedicata per localizzare e prenotare stazioni</span>
                     </li>
                   </ul>
                 </div>

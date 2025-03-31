@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
 import Models from '../components/Models';
+import ElectricEngine from '../components/ElectricEngine';
 import UrbanMobility from '../components/UrbanMobility';
 import Sustainability from '../components/Sustainability';
 import Footer from '../components/Footer';
@@ -43,6 +44,7 @@ const Index: React.FC = () => {
         <Hero />
         <Features />
         <Models />
+        <ElectricEngine />
         <UrbanMobility />
         <Sustainability />
       </main>

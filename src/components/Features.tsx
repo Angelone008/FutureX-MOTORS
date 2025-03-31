@@ -60,13 +60,13 @@ const Features: React.FC = () => {
           className="fade-in-section"
         >
           <div className="text-center mb-16">
-            <div className="inline-block px-3 py-1 mb-4 rounded-full bg-rosso/10 border border-rosso/20">
+            <div className="inline-block px-3 py-1 mb-4 rounded-full bg-rosso/20 border border-rosso/30">
               <span className="text-xs uppercase tracking-widest font-medium text-rosso-dark">Chi è G.D.B Motors</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
+            <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">
               Pionieri nel Design Automobilistico Elettrico
             </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-medium">
               G.D.B MOTORS ITALIA combina l'artigianato italiano con tecnologia elettrica all'avanguardia per creare i veicoli di lusso sostenibili di domani.
             </p>
           </div>
@@ -82,7 +82,7 @@ const Features: React.FC = () => {
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
-                <p className="text-muted-foreground">{feature.description}</p>
+                <p className="text-muted-foreground font-medium">{feature.description}</p>
               </div>
             ))}
           </div>
