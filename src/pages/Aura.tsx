@@ -99,7 +99,7 @@ const Aura: React.FC = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     ref={imageRef}
-                    src="/lovable-uploads/476503eb-c797-4e9a-87fc-f3e5623d08ae.png"
+                    src="/lovable-uploads/e8580393-e25f-480e-8055-1e6c4d3f12a3.png"
                     alt="Aura - Berlina Elettrica di Lusso con design innovativo"
                     className="w-full h-full object-cover object-center lazy-image"
                   />

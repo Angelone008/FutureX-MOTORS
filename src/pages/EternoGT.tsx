@@ -99,7 +99,7 @@ const EternoGT: React.FC = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     ref={imageRef}
-                    src="/lovable-uploads/24f62614-c062-40a3-82d5-d559a532b97d.png"
+                    src="/lovable-uploads/05ed10e9-f686-4de9-a2ff-0530a185ca93.png"
                     alt="Eterno GT - Grand Tourer Elettrica di lusso in design futuristico"
                     className="w-full h-full object-cover object-center lazy-image"
                   />

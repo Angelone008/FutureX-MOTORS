@@ -9,7 +9,7 @@ const models = [
     category: 'Gran Turismo',
     description: 'Il nostro fiore all\'occhiello: una Grand Tourer elettrica che ridefinisce il concetto di eleganza italiana. Con un\'autonomia di 700 km e un\'accelerazione da 0 a 100 km/h in soli 2,8 secondi, rappresenta il perfetto equilibrio tra lusso sostenibile e prestazioni straordinarie.',
     specs: ['Autonomia: 700 km', 'Potenza: 850 cv', '0-100 km/h: 2,8s', 'Velocità max: 330 km/h'],
-    image: '/lovable-uploads/d2b0d1f6-a24d-4880-9302-781ba528eab7.png',
+    image: '/lovable-uploads/05ed10e9-f686-4de9-a2ff-0530a185ca93.png',
     path: '/eterno-gt'
   },
   {
@@ -18,7 +18,7 @@ const models = [
     category: 'Berlina di Lusso',
     description: 'Una sofisticata berlina elettrica con comfort impareggiabile, realizzata con materiali eco-sostenibili di altissima qualità. Tecnologia all\'avanguardia, interni spaziosi e un\'autonomia di 650 km per viaggiare nel massimo comfort con zero emissioni.',
     specs: ['Autonomia: 650 km', 'Potenza: 500 cv', '0-100 km/h: 3,6s', 'Velocità max: 250 km/h'],
-    image: '/lovable-uploads/edb9dd29-2cb3-4b25-90ac-f5678c5af4fc.png',
+    image: '/lovable-uploads/e8580393-e25f-480e-8055-1e6c4d3f12a3.png',
     path: '/aura'
   },
   {
@@ -27,7 +27,7 @@ const models = [
     category: 'SUV Sportivo',
     description: 'Il nostro rivoluzionario SUV elettrico che unisce versatilità, prestazioni sportive e tecnologia eco-friendly. Con sistema di trazione integrale intelligente, capacità fuoristrada avanzate e un\'autonomia di 580 km, il Vento ridefinisce ciò che un SUV può fare.',
     specs: ['Autonomia: 580 km', 'Potenza: 650 cv', '0-100 km/h: 3,4s', 'Velocità max: 240 km/h'],
-    image: '/lovable-uploads/87ff38f3-184f-46d4-8396-dc80894714bc.png',
+    image: '/lovable-uploads/704c5887-60ec-425d-95bd-29729aca0830.png',
     path: '/vento'
   }
 ];

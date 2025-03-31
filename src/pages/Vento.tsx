@@ -99,7 +99,7 @@ const Vento: React.FC = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     ref={imageRef}
-                    src="/lovable-uploads/3592012a-6a15-42dd-9fa5-306794bbf690.png"
+                    src="/lovable-uploads/704c5887-60ec-425d-95bd-29729aca0830.png"
                     alt="Vento - SUV Elettrico Sportivo con design dinamico"
                     className="w-full h-full object-cover object-center lazy-image"
                   />
