@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -100,8 +99,8 @@ const Vento: React.FC = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     ref={imageRef}
-                    src="/lovable-uploads/87ff38f3-184f-46d4-8396-dc80894714bc.png"
-                    alt="Vento - SUV Elettrico Sportivo in vivace giallo energetico"
+                    src="/lovable-uploads/3592012a-6a15-42dd-9fa5-306794bbf690.png"
+                    alt="Vento - SUV Elettrico Sportivo con design dinamico"
                     className="w-full h-full object-cover object-center lazy-image"
                   />
                 </div>

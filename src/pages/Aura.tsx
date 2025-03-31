@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -100,8 +99,8 @@ const Aura: React.FC = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     ref={imageRef}
-                    src="/lovable-uploads/edb9dd29-2cb3-4b25-90ac-f5678c5af4fc.png"
-                    alt="Aura - Berlina Elettrica di Lusso in elegante verde acqua"
+                    src="/lovable-uploads/476503eb-c797-4e9a-87fc-f3e5623d08ae.png"
+                    alt="Aura - Berlina Elettrica di Lusso con design innovativo"
                     className="w-full h-full object-cover object-center lazy-image"
                   />
                 </div>

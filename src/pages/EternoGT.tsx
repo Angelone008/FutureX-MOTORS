@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -100,8 +99,8 @@ const EternoGT: React.FC = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     ref={imageRef}
-                    src="/lovable-uploads/d2b0d1f6-a24d-4880-9302-781ba528eab7.png"
-                    alt="Eterno GT - Grand Tourer Elettrica di lusso in blu elettrico"
+                    src="/lovable-uploads/24f62614-c062-40a3-82d5-d559a532b97d.png"
+                    alt="Eterno GT - Grand Tourer Elettrica di lusso in design futuristico"
                     className="w-full h-full object-cover object-center lazy-image"
                   />
                 </div>

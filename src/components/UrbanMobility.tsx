@@ -8,7 +8,7 @@ const urbanModels = [
     name: 'Piccolo',
     category: 'City Car',
     description: 'La soluzione perfetta per la mobilità urbana: compatta, agile e 100% elettrica. Ideale per muoversi nel traffico cittadino con stile e zero emissioni.',
-    image: '/lovable-uploads/16542d83-aab1-4a81-83e2-de9ea36543fc.png',
+    image: '/lovable-uploads/07f09308-338c-4a03-92a7-181d901c512a.png',
     specs: ['Autonomia: 250 km', 'Batteria: 30 kWh', 'Ricarica: 30 min (20-80%)', 'Velocità max: 130 km/h']
   },
   {
@@ -16,7 +16,7 @@ const urbanModels = [
     name: 'Sole',
     category: 'Crossover Compatto',
     description: 'Un crossover elettrico compatto che unisce versatilità e design futuristico. Perfetto per chi desidera spazio e praticità senza rinunciare all\'efficienza.',
-    image: '/lovable-uploads/6e49824f-bfae-46bf-ab24-4a904a9ebc0b.png',
+    image: '/lovable-uploads/859f501f-5cae-48e6-b281-b8384ac8eb2f.png',
     specs: ['Autonomia: 400 km', 'Batteria: 60 kWh', 'Ricarica: 25 min (20-80%)', 'Velocità max: 180 km/h']
   }
 ];

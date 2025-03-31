@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 
 const Hero: React.FC = () => {
@@ -56,7 +55,7 @@ const Hero: React.FC = () => {
           </p>
           
           <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
-            <p className="text-lg md:text-xl font-display italic font-medium text-rosso-dark">
+            <p className="text-lg md:text-xl font-display italic font-medium text-rosso-dark text-center">
               "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
             </p>
           </div>
