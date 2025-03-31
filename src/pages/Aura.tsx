@@ -42,41 +42,47 @@ const Aura: React.FC = () => {
                 </div>
                 <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Aura</h1>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Una sofisticata berlina elettrica con comfort impareggiabile e un focus sui materiali di lusso sostenibili.
+                  Una sofisticata berlina elettrica che ridefinisce il concetto di lusso sostenibile. Progettata per offrire un'esperienza di guida impareggiabile con interni realizzati esclusivamente con materiali eco-compatibili di altissima qualità.
                 </p>
                 
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
+                  <p className="text-lg font-display italic font-medium text-rosso-dark">
+                    "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
+                  </p>
+                </div>
+                
                 <div className="grid grid-cols-2 gap-4 mb-8">
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">Autonomia: 650 km</span>
                   </div>
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">Potenza: 500 cv</span>
                   </div>
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">0-100 km/h: 3,6s</span>
                   </div>
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">Velocità max: 250 km/h</span>
                   </div>
                 </div>
                 
                 <h2 className="text-2xl font-display font-bold mb-4">Caratteristiche Distintive</h2>
-                <ul className="space-y-2 mb-8">
+                <ul className="space-y-3 mb-8 text-base">
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Sistema audio premium con 18 altoparlanti</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Sistema audio premium con 18 altoparlanti e cancellazione attiva del rumore</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Tetto panoramico con regolazione elettronica dell'opacità</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Tetto panoramico intelligente con regolazione elettronica dell'opacità e pannelli fotovoltaici integrati</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Sedili con massaggio e ventilazione</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Sedili ergonomici in pelle vegana con 22 regolazioni elettriche, massaggio e ventilazione</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Connettività avanzata con hotspot 5G integrato</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Connettività avanzata con hotspot 5G integrato e sistema di intrattenimento per i passeggeri</span>
                   </li>
                 </ul>
                 
@@ -94,8 +100,8 @@ const Aura: React.FC = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     ref={imageRef}
-                    src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1000&q=80"
-                    alt="Aura - Berlina Elettrica di Lusso"
+                    src="/lovable-uploads/edb9dd29-2cb3-4b25-90ac-f5678c5af4fc.png"
+                    alt="Aura - Berlina Elettrica di Lusso in elegante verde acqua"
                     className="w-full h-full object-cover object-center lazy-image"
                   />
                 </div>

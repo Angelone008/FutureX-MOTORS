@@ -42,41 +42,47 @@ const Vento: React.FC = () => {
                 </div>
                 <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Vento</h1>
                 <p className="text-lg text-muted-foreground mb-6">
-                  SUV elettrico ad alte prestazioni che combina versatilità con l'anima di un'auto sportiva e zero emissioni.
+                  SUV elettrico ad alte prestazioni che unisce la versatilità di un crossover con l'anima di un'auto sportiva. Progettato per affrontare ogni tipo di terreno con zero emissioni.
                 </p>
                 
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
+                  <p className="text-lg font-display italic font-medium text-rosso-dark">
+                    "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
+                  </p>
+                </div>
+                
                 <div className="grid grid-cols-2 gap-4 mb-8">
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">Autonomia: 580 km</span>
                   </div>
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">Potenza: 650 cv</span>
                   </div>
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">0-100 km/h: 3,4s</span>
                   </div>
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">Velocità max: 240 km/h</span>
                   </div>
                 </div>
                 
                 <h2 className="text-2xl font-display font-bold mb-4">Caratteristiche Distintive</h2>
-                <ul className="space-y-2 mb-8">
+                <ul className="space-y-3 mb-8 text-base">
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Modalità fuoristrada avanzata</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Modalità fuoristrada avanzata con controllo automatico della trazione</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Capacità di guado fino a 60 cm</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Capacità di guado fino a 60 cm con sistema di protezione della batteria impermeabile</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Sistema di trazione intelligente multi-terreno</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Sistema di trazione intelligente multi-terreno con ripartizione dinamica della coppia</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Spazio di carico flessibile fino a 1.800 litri</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Spazio di carico flessibile fino a 1.800 litri con sedili completamente abbattibili</span>
                   </li>
                 </ul>
                 
@@ -94,8 +100,8 @@ const Vento: React.FC = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     ref={imageRef}
-                    src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1000&q=80"
-                    alt="Vento - SUV Elettrico Sportivo"
+                    src="/lovable-uploads/87ff38f3-184f-46d4-8396-dc80894714bc.png"
+                    alt="Vento - SUV Elettrico Sportivo in vivace giallo energetico"
                     className="w-full h-full object-cover object-center lazy-image"
                   />
                 </div>

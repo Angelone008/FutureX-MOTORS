@@ -42,41 +42,47 @@ const EternoGT: React.FC = () => {
                 </div>
                 <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Eterno GT</h1>
                 <p className="text-lg text-muted-foreground mb-6">
-                  La nostra ammiraglia elettrica grand tourer combina un elegante design italiano con un'autonomia di 700 km e un'accelerazione da 0 a 100 km/h in 2,8 secondi.
+                  La nostra ammiraglia elettrica grand tourer rappresenta l'apice dell'eleganza italiana e dell'innovazione tecnologica. Ogni dettaglio è stato progettato per offrire un'esperienza di guida senza precedenti, combinando prestazioni eccezionali con un comfort lussuoso e sostenibilità ambientale.
                 </p>
                 
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
+                  <p className="text-lg font-display italic font-medium text-rosso-dark">
+                    "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
+                  </p>
+                </div>
+                
                 <div className="grid grid-cols-2 gap-4 mb-8">
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">Autonomia: 700 km</span>
                   </div>
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">Potenza: 850 cv</span>
                   </div>
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">0-100 km/h: 2,8s</span>
                   </div>
-                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100">
+                  <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">
                     <span className="text-sm font-medium">Velocità max: 330 km/h</span>
                   </div>
                 </div>
                 
                 <h2 className="text-2xl font-display font-bold mb-4">Caratteristiche Distintive</h2>
-                <ul className="space-y-2 mb-8">
+                <ul className="space-y-3 mb-8 text-base">
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Carrozzeria in fibra di carbonio riciclata</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Carrozzeria in fibra di carbonio riciclata con tecnologia proprietaria per ridurre il peso e aumentare la rigidità strutturale</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Sistema di ricarica ultra-veloce (15 min all'80%)</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Sistema di ricarica ultra-veloce con tecnologia brevettata che permette di ricaricare dal 10% all'80% in soli 15 minuti</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Interni in pelle vegana di lusso</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Interni in pelle vegana di lusso prodotta con materiali riciclati e processi a basso impatto ambientale</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-rosso mr-2">•</span>
-                    <span>Sistema di assistenza alla guida autonoma di livello 3</span>
+                    <span className="text-rosso mr-2 text-xl">•</span>
+                    <span>Sistema di assistenza alla guida autonoma di livello 3 con 12 sensori LiDAR e intelligenza artificiale adattiva</span>
                   </li>
                 </ul>
                 
@@ -94,8 +100,8 @@ const EternoGT: React.FC = () => {
                 <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     ref={imageRef}
-                    src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80"
-                    alt="Eterno GT - Grand Tourer Elettrica"
+                    src="/lovable-uploads/d2b0d1f6-a24d-4880-9302-781ba528eab7.png"
+                    alt="Eterno GT - Grand Tourer Elettrica di lusso in blu elettrico"
                     className="w-full h-full object-cover object-center lazy-image"
                   />
                 </div>

@@ -96,6 +96,12 @@ const Models: React.FC = () => {
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Scopri la nostra esclusiva gamma di prototipi elettrici, dove l'innovazione tecnologica incontra l'eccellenza del design italiano per una mobilità sostenibile e di lusso.
             </p>
+            
+            <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso my-8 max-w-2xl mx-auto">
+              <p className="text-lg font-display italic font-medium text-rosso-dark">
+                "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
+              </p>
+            </div>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">

@@ -55,6 +55,12 @@ const Hero: React.FC = () => {
             G.D.B MOTORS ITALIA crea prototipi automobilistici elettrici visionari che ridefiniscono ciò che è possibile nella mobilità di lusso sostenibile.
           </p>
           
+          <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
+            <p className="text-lg md:text-xl font-display italic font-medium text-rosso-dark">
+              "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
+            </p>
+          </div>
+          
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
               href="#models" 
