@@ -54,7 +54,7 @@ const models = [
     category: 'Hypercar Elettrica',
     description: 'La nostra hypercar di punta, un\'esclusiva opera d\'arte tecnologica prodotta in soli 25 esemplari. Con prestazioni da record mondiale, la Lampo ridefinisce il concetto di automobile elettrica estrema combinando potenza, leggerezza e design futuristico.',
     specs: ['Autonomia: 450 km', 'Potenza: 1800 cv', '0-100 km/h: 1,6s', 'Velocità max: 420 km/h'],
-    image: '/lovable-uploads/b760b4b1-de32-4aa8-ad37-e988a9850ffa.png',
+    image: '/lovable-uploads/641220f0-f416-46d8-b33f-7057ea223bb8.png',
     path: '/lampo'
   }
 ];

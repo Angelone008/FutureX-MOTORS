@@ -102,7 +102,7 @@ const Lampo = () => {
             <div className="space-y-6">
               <div className="h-[400px] rounded-xl overflow-hidden shadow-xl">
                 <img 
-                  src="/lovable-uploads/b760b4b1-de32-4aa8-ad37-e988a9850ffa.png" 
+                  src="/lovable-uploads/641220f0-f416-46d8-b33f-7057ea223bb8.png" 
                   alt="FutureX-Motors Lampo Hypercar Elettrica" 
                   className="w-full h-full object-cover"
                 />
