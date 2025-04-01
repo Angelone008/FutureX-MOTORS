@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6 hero-text-shadow text-white">
             Il Futuro delle <br />
-            <span className="text-white bg-black/60 px-2 rounded-md">Eco-Cars</span> <br />
+            <span className="text-black bg-white/90 px-3 py-1 rounded-md">Eco-Cars</span> <br />
             è Italiano.
           </h1>
           

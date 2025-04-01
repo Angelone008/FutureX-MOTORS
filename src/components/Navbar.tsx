@@ -33,16 +33,11 @@ const Navbar: React.FC = () => {
           to="/" 
           className="flex items-center gap-2"
         >
-          <div className="relative w-10 h-10 flex items-center justify-center rounded-full bg-eco text-white">
-            <span className="font-display font-bold text-lg">F</span>
-            <div className="absolute -right-1 -bottom-1 w-5 h-5 bg-white rounded-full flex items-center justify-center">
-              <div className="w-3 h-3 bg-rosso rounded-full" />
-            </div>
-          </div>
-          <div className="flex flex-col">
-            <span className="font-display font-bold tracking-tight text-lg leading-none">FUTUREX-MOTORS</span>
-            <span className="text-[10px] tracking-widest text-muted-foreground uppercase">ITALIA</span>
-          </div>
+          <img 
+            src="/lovable-uploads/783204d2-32fd-428c-9931-a9295b4f2fba.png" 
+            alt="FutureX-motors Logo" 
+            className="h-12 w-auto"
+          />
         </Link>
         
         {/* Desktop menu */}
