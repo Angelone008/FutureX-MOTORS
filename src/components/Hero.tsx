@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
         <img
           ref={imageRef}
           src="/lovable-uploads/641220f0-f416-46d8-b33f-7057ea223bb8.png"
-          alt="Auto concept elettrica G.D.B Motors con illuminazione futuristica"
+          alt="Auto concept elettrica FutureX-motors con illuminazione futuristica"
           className="w-full h-full object-cover lazy-image"
         />
       </div>
@@ -47,17 +47,17 @@ const Hero: React.FC = () => {
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6 hero-text-shadow text-white">
             Il Futuro delle <br />
-            <span className="bg-gradient-to-r from-eco via-accent to-rosso bg-clip-text text-transparent animate-gradient-x">Eco-Cars</span> <br />
+            <span className="text-white bg-black/60 px-2 rounded-md">Eco-Cars</span> <br />
             è Italiano.
           </h1>
           
           <p className="text-lg md:text-xl text-white mb-8 max-w-2xl hero-text-shadow font-semibold">
-            G.D.B MOTORS ITALIA crea prototipi automobilistici elettrici visionari che ridefiniscono ciò che è possibile nella mobilità di lusso sostenibile.
+            FUTUREX-MOTORS ITALIA crea prototipi automobilistici elettrici visionari che ridefiniscono ciò che è possibile nella mobilità di lusso sostenibile.
           </p>
           
           <div className="bg-white/90 backdrop-blur-sm p-5 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
             <p className="text-lg md:text-2xl font-display italic font-bold text-rosso-dark text-center">
-              "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
+              "Percorri la strada del futuro, con FutureX-Motors, più verde e sostenibile!"
             </p>
           </div>
           

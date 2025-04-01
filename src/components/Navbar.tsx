@@ -34,13 +34,13 @@ const Navbar: React.FC = () => {
           className="flex items-center gap-2"
         >
           <div className="relative w-10 h-10 flex items-center justify-center rounded-full bg-eco text-white">
-            <span className="font-display font-bold text-lg">G</span>
+            <span className="font-display font-bold text-lg">F</span>
             <div className="absolute -right-1 -bottom-1 w-5 h-5 bg-white rounded-full flex items-center justify-center">
-              <div className="w-3 h-3 bg-eco rounded-full" />
+              <div className="w-3 h-3 bg-rosso rounded-full" />
             </div>
           </div>
           <div className="flex flex-col">
-            <span className="font-display font-bold tracking-tight text-lg leading-none">G.D.B MOTORS</span>
+            <span className="font-display font-bold tracking-tight text-lg leading-none">FUTUREX-MOTORS</span>
             <span className="text-[10px] tracking-widest text-muted-foreground uppercase">ITALIA</span>
           </div>
         </Link>
@@ -52,6 +52,8 @@ const Navbar: React.FC = () => {
           <Link to="/eterno-gt" className="nav-link text-sm font-medium py-2">Eterno GT</Link>
           <Link to="/aura" className="nav-link text-sm font-medium py-2">Aura</Link>
           <Link to="/vento" className="nav-link text-sm font-medium py-2">Vento</Link>
+          <Link to="/lampo" className="nav-link text-sm font-medium py-2">Lampo</Link>
+          <Link to="/stella" className="nav-link text-sm font-medium py-2">Stella</Link>
           <a 
             href="#contact" 
             className="button-hover ml-2 px-4 py-2 rounded-full bg-rosso text-white text-sm font-medium"
@@ -112,6 +114,20 @@ const Navbar: React.FC = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Vento
+            </Link>
+            <Link 
+              to="/lampo" 
+              className="text-sm font-medium py-2 border-b border-gray-100"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Lampo
+            </Link>
+            <Link 
+              to="/stella" 
+              className="text-sm font-medium py-2 border-b border-gray-100"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Stella
             </Link>
             <a 
               href="#contact" 

@@ -8,15 +8,15 @@ const urbanModels = [
     name: 'Piccolo',
     category: 'City Car',
     description: 'La soluzione perfetta per la mobilità urbana: compatta, agile e 100% elettrica. Ideale per muoversi nel traffico cittadino con stile e zero emissioni.',
-    image: '/lovable-uploads/dfbe6b89-fc4d-4ef7-9ee8-d1e5996e5aca.png',
+    image: '/lovable-uploads/2a350430-930d-4fc7-bcb6-84fe6a1d5800.png',
     specs: ['Autonomia: 250 km', 'Batteria: 30 kWh', 'Ricarica: 30 min (20-80%)', 'Velocità max: 130 km/h']
   },
   {
     id: 'sole',
     name: 'Sole',
-    category: 'Crossover Compatto',
-    description: 'Un crossover elettrico compatto che unisce versatilità e design futuristico. Perfetto per chi desidera spazio e praticità senza rinunciare all\'efficienza.',
-    image: '/lovable-uploads/823879ba-4fd1-4a0d-81e2-70977c6283cb.png',
+    category: 'Classica Elettrica',
+    description: 'Una reinterpretazione elettrica delle iconiche auto d\'epoca italiane. Combina il fascino senza tempo del design classico con la moderna tecnologia di propulsione elettrica.',
+    image: '/lovable-uploads/fcbd5bfa-bc54-4944-8dc5-6b1fc56afe96.png',
     specs: ['Autonomia: 400 km', 'Batteria: 60 kWh', 'Ricarica: 25 min (20-80%)', 'Velocità max: 180 km/h']
   }
 ];
@@ -101,7 +101,7 @@ const UrbanMobility: React.FC = () => {
                   <img
                     ref={el => imageRefs.current[index] = el}
                     src={model.image}
-                    alt={`${model.name} - ${model.category} elettrica G.D.B Motors`}
+                    alt={`${model.name} - ${model.category} elettrica FutureX-Motors`}
                     className="w-full h-full object-cover lazy-image"
                   />
                 </div>
@@ -147,14 +147,14 @@ const UrbanMobility: React.FC = () => {
                 <div>
                   <img
                     ref={chargingImageRef}
-                    src="/lovable-uploads/6ab08545-0c70-47c6-8a00-37266cce5094.png" 
-                    alt="Sistema di ricarica ultrarapida G.D.B Motors in ambiente naturale" 
+                    src="/lovable-uploads/24091400-0166-49a3-9ac9-a89d2fdca996.png" 
+                    alt="Sistema di ricarica ultrarapida FutureX-Motors in ambiente naturale" 
                     className="w-full h-[250px] object-cover rounded-lg shadow-lg lazy-image"
                   />
                 </div>
                 <div className="text-left">
                   <p className="text-lg mb-4 font-medium">
-                    Tutti i nostri modelli sono compatibili con il nostro sistema di ricarica ultrarapida GDB-Fast, che permette di ricaricare dal 20% all'80% in tempi record, grazie alla nostra tecnologia proprietaria.
+                    Tutti i nostri modelli sono compatibili con il nostro sistema di ricarica ultrarapida FutureX-Fast, che permette di ricaricare dal 20% all'80% in tempi record, grazie alla nostra tecnologia proprietaria.
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-start">
