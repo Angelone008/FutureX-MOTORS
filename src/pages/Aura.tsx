@@ -34,6 +34,13 @@ const Aura: React.FC = () => {
       <main className="pt-24">
         <section className="section-padding">
           <div className="max-w-7xl mx-auto">
+            {/* Change the brand mention */}
+            <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
+              <p className="text-lg font-display italic font-medium text-rosso-dark">
+                "Percorri la strada del futuro, con FutureX Motors, più verde e sostenibile!"
+              </p>
+            </div>
+            
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="inline-block px-3 py-1 mb-4 rounded-full bg-rosso/10 border border-rosso/20">
@@ -44,11 +51,7 @@ const Aura: React.FC = () => {
                   Una sofisticata berlina elettrica che ridefinisce il concetto di lusso sostenibile. Progettata per offrire un'esperienza di guida impareggiabile con interni realizzati esclusivamente con materiali eco-compatibili di altissima qualità.
                 </p>
                 
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
-                  <p className="text-lg font-display italic font-medium text-rosso-dark">
-                    "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
-                  </p>
-                </div>
+                
                 
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">

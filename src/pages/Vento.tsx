@@ -44,11 +44,11 @@ const Vento: React.FC = () => {
                   SUV elettrico ad alte prestazioni che unisce la versatilità di un crossover con l'anima di un'auto sportiva. Progettato per affrontare ogni tipo di terreno con zero emissioni.
                 </p>
                 
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
-                  <p className="text-lg font-display italic font-medium text-rosso-dark">
-                    "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
-                  </p>
-                </div>
+            <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
+              <p className="text-lg font-display italic font-medium text-rosso-dark">
+                "Percorri la strada del futuro, con FutureX Motors, più verde e sostenibile!"
+              </p>
+            </div>
                 
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">

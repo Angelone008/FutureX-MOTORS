@@ -44,11 +44,12 @@ const EternoGT: React.FC = () => {
                   La nostra ammiraglia elettrica grand tourer rappresenta l'apice dell'eleganza italiana e dell'innovazione tecnologica. Ogni dettaglio è stato progettato per offrire un'esperienza di guida senza precedenti, combinando prestazioni eccezionali con un comfort lussuoso e sostenibilità ambientale.
                 </p>
                 
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
-                  <p className="text-lg font-display italic font-medium text-rosso-dark">
-                    "Percorri la strada del futuro, con GDB Motors, più verde e sostenibile!"
-                  </p>
-                </div>
+            {/* Change the brand mention */}
+            <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg border-l-4 border-rosso mb-8">
+              <p className="text-lg font-display italic font-medium text-rosso-dark">
+                "Percorri la strada del futuro, con FutureX Motors, più verde e sostenibile!"
+              </p>
+            </div>
                 
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border border-gray-100 shadow-md">

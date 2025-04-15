@@ -9,13 +9,13 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="relative w-10 h-10 flex items-center justify-center rounded-full bg-eco text-white">
-                <span className="font-display font-bold text-lg">G</span>
+                <span className="font-display font-bold text-lg">F</span>
                 <div className="absolute -right-1 -bottom-1 w-5 h-5 bg-white rounded-full flex items-center justify-center">
                   <div className="w-3 h-3 bg-eco rounded-full" />
                 </div>
               </div>
               <div className="flex flex-col">
-                <span className="font-display font-bold tracking-tight text-lg leading-none">G.D.B MOTORS</span>
+                <span className="font-display font-bold tracking-tight text-lg leading-none">FUTUREX MOTORS</span>
                 <span className="text-[10px] tracking-widest text-gray-400 uppercase">ITALIA</span>
               </div>
             </div>
