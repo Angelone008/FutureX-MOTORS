@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Leaf, Globe, Battery, Zap } from 'lucide-react';
 
@@ -61,13 +60,13 @@ const Features: React.FC = () => {
         >
           <div className="text-center mb-16">
             <div className="inline-block px-3 py-1 mb-4 rounded-full bg-rosso/20 border border-rosso/30">
-              <span className="text-xs uppercase tracking-widest font-medium text-rosso-dark">Chi è G.D.B Motors</span>
+              <span className="text-xs uppercase tracking-widest font-medium text-rosso-dark">Chi è FutureX Motors</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">
               Pionieri nel Design Automobilistico Elettrico
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-medium">
-              G.D.B MOTORS ITALIA combina l'artigianato italiano con tecnologia elettrica all'avanguardia per creare i veicoli di lusso sostenibili di domani.
+              FutureX Motors Italia combina l'artigianato italiano con tecnologia elettrica all'avanguardia per creare i veicoli di lusso sostenibili di domani.
             </p>
           </div>
           
