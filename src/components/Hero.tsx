@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6 hero-text-shadow text-black">
-            Il Futuro delle <br />
+            <span className="text-eco-dark">Il Futuro delle</span> <br />
             <span className="text-black bg-white/90 px-3 py-1 rounded-md font-bold">Eco-Cars</span> <br />
             <span className="text-rosso-dark">è Italiano.</span>
           </h1>
