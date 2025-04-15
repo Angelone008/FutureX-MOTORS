@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -61,11 +60,11 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Visitaci</h3>
             <address className="not-italic text-gray-400">
-              <p className="mb-2">G.D.B MOTORS ITALIA</p>
+              <p className="mb-2">FUTUREX MOTORS ITALIA</p>
               <p className="mb-2">Via Longobardo, 23</p>
               <p className="mb-2">72100 Brindisi, Italia</p>
               <p className="mb-2">+39 0831 123456</p>
-              <p className="mb-4">info@gdbmotors.it</p>
+              <p className="mb-4">info@futurexmotors.it</p>
             </address>
             <div className="inline-block px-3 py-1 rounded-full border border-rosso">
               <span className="text-xs uppercase tracking-widest font-medium text-rosso">Aperto per Visite</span>
@@ -95,7 +94,7 @@ const Footer: React.FC = () => {
         
         <div className="pt-8 mt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-500 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} G.D.B MOTORS ITALIA. Tutti i diritti riservati.
+            &copy; {new Date().getFullYear()} FUTUREX MOTORS ITALIA. Tutti i diritti riservati.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Privacy Policy</a>

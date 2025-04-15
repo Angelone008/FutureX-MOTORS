@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Zap, Battery, Activity, Award } from 'lucide-react';
 
@@ -58,7 +57,7 @@ const ElectricEngine: React.FC = () => {
               Il Cuore Elettrico delle Nostre Vetture
             </h2>
             <p className="text-lg text-white/90 max-w-3xl mx-auto font-medium">
-              La vera rivoluzione delle nostre auto è il motore elettrico GDB-Power, un'innovazione ingegneristica che stabilisce nuovi standard nel settore della mobilità elettrica.
+              La vera rivoluzione delle nostre auto è il motore elettrico FutureX-Power, un'innovazione ingegneristica che stabilisce nuovi standard nel settore della mobilità elettrica.
             </p>
           </div>
           
@@ -79,7 +78,7 @@ const ElectricEngine: React.FC = () => {
                   Tecnologia Dual-Motor
                 </h3>
                 <p className="text-white/90 text-lg font-medium">
-                  Il sistema propulsivo avanzato GDB-Power è dotato di due motori sincroni a magneti permanenti che offrono una distribuzione perfetta della potenza e una coppia istantanea senza precedenti.
+                  Il sistema propulsivo avanzato FutureX-Power è dotato di due motori sincroni a magneti permanenti che offrono una distribuzione perfetta della potenza e una coppia istantanea senza precedenti.
                 </p>
               </div>
               
